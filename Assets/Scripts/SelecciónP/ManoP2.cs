@@ -83,7 +83,7 @@ public class ManoP2 : MonoBehaviour
                 //Igualando la posición del objeto obtenido con la posición de 'Agarre2'.
                 //A lo anterior le resto un 'Vector3' para corregir la posición.
 
-                ObjetoObtenido2.transform.position = Agarre2.position - new Vector3(Agarre2.position.x - Agarre2.position.x - -73.2f, 36, Agarre2.position.z);
+                ObjetoObtenido2.transform.position = Agarre2.position - new Vector3(Agarre2.position.x - Agarre2.position.x - -58, 75, Agarre2.position.z);
             }
         }
 

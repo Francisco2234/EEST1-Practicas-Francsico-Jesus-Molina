@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 //Indica que requiere un componente del tipo 'Camera'.
 
@@ -52,6 +53,10 @@ public class CamaraGame : MonoBehaviour
 
     }
 
+    void Update()
+    {
+        
+    }
     /*
        -----------------
       |DISTANCIA FUNCIÓN|
